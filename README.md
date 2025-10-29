@@ -54,3 +54,6 @@ Deployed highly available Kubernetes cluster on AWS
 Configured Jenkins with SonarQube for code quality checks
 
 Demonstrated end-to-end DevOps flow from code commit → deploy → monitor
+
+<img width="1019" height="1237" alt="Screenshot 2025-10-29 at 10 15 23 AM" src="https://github.com/user-attachments/assets/a17e9f73-5b6f-4d2c-9f36-1c7a040a4534" />
+
