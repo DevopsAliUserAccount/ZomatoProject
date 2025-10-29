@@ -6,7 +6,7 @@ pipeline {
   }
   environment {
     SCANNER_HOME = tool 'sonar-scanner'   // Jenkins tool name
-    IMAGE = "samikhan123/zomato:latest"   // keep one repo/tag everywhere
+    IMAGE = "samikhan123/zomato:latest"  
   }
   options {
     timestamps()
@@ -38,7 +38,6 @@ pipeline {
     stage('Quality Gate') {
       steps {
         timeout(time: 10, unit: 'MINUTES') {
-          // Requires SonarQube webhook back to Jenkins to be configured
           waitForQualityGate abortPipeline: true
         }
       }
